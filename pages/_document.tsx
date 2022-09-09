@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang="en">
       <Head>
         <link
           rel="apple-touch-icon"
@@ -28,7 +28,6 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
           rel="stylesheet"
         />
-        <title>Frontend Mentor Project</title>
       </Head>
       <body>
         <main>
