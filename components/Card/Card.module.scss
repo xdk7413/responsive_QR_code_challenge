@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: hsl(212%, 45%, 89%);
+
+  align-items: center;
+  justify-content: center;
+}
+
+.container_card {
+  display: flex;
+  flex-direction: column;
+
+  padding: 1rem;
+  width: 20rem;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+
+  text-align: center;
+  word-wrap: normal;
+  color: (218, 44%, 22%);
+  font-family: Outfit;
+
+  h1 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.image_container {
+  img {
+    max-width: 18rem;
+    border-radius: 1rem;
+  }
+}
